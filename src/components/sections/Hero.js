@@ -61,7 +61,7 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              <span className="text-color-primary">GEEKTEKS</span> IPFS Listings
+              <span className="text-color-primary">GEEKTEKS</span> IPFS Site
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
@@ -69,10 +69,10 @@ const Hero = ({
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
+                  <Button tag="a" color="primary" wideMobile href="https://geekteks.com/">
                     Get started
                     </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
+                  <Button tag="a" color="dark" wideMobile href="https://github.com">
                     View on Github
                     </Button>
                 </ButtonGroup>
@@ -81,7 +81,7 @@ const Hero = ({
           </div>
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
             <a
-              data-video="https://player.vimeo.com/video/174002812"
+              data-video="https://open.lbry.com/What-is-IPFS-Quick-Explanation-in-7-Minutes:0?r=3KPMbZ5D3u8j7G1Jyz1NZbn6YLbskdHk"
               href="#0"
               aria-controls="video-modal"
               onClick={openModal}
@@ -98,7 +98,7 @@ const Hero = ({
             id="video-modal"
             show={videoModalActive}
             handleClose={closeModal}
-            video="https://player.vimeo.com/video/174002812"
+            video="https://open.lbry.com/What-is-IPFS-Quick-Explanation-in-7-Minutes:0?r=3KPMbZ5D3u8j7G1Jyz1NZbn6YLbskdHk"
             videoTag="iframe" />
         </div>
       </div>
